@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Data Mahasiswa</title>
+
+    <!-- Menghubungkan HTML dengan CSS -->
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Form Data Mahasiswa</h1>
+
+        <form>
+
+            <!-- Text -->
+            <label>Nama Lengkap:</label>
+            <input type="text" placeholder="Masukkan nama lengkap">
+
+            <!-- Password -->
+            <label>Password:</label>
+            <input type="password" placeholder="Masukkan password">
+
+            <!-- Text Area -->
+            <label>Alamat:</label>
+            <textarea placeholder="Masukkan alamat lengkap"></textarea>
+
+            <!-- Radio Button -->
+            <label>Jenis Kelamin:</label>
+            <div class="pilihan">
+                <input type="radio" name="gender" value="Laki-laki">
+                Laki-laki
+
+                <input type="radio" name="gender" value="Perempuan">
+                Perempuan
+            </div>
+
+            <!-- Checkbox -->
+            <label>Hobi:</label>
+            <div class="pilihan">
+                <input type="checkbox" value="Coding">
+                Coding
+
+                <input type="checkbox" value="Gaming">
+                Gaming
+
+                <input type="checkbox" value="Musik">
+                Musik
+            </div>
+
+            <!-- Select Option -->
+            <label>Program Studi:</label>
+            <select>
+                <option>Teknologi Informasi</option>
+                <option>Ilmu Komputer</option>
+            </select>
+
+            <!-- Submit -->
+            <input type="submit" value="Kirim">
+
+        </form>
+
+    </div>
+
+</body>
+</html>
